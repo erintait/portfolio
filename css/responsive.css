@@ -1,0 +1,1547 @@
+@media (max-width: 1199px) {
+	
+/* ==================================================
+Header Section
+================================================== */
+.main-navigation .navbar-nav > li > a {
+	font-size: 13px;
+}
+.top-header .navbar-default .navbar-nav > li > a {
+	font-size: 15px;
+	padding-left: 10px;
+	padding-right: 10px;	
+}
+.main-navigation .navbar-nav > li {
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#main-slider.owl-theme .owl-dots {
+	bottom: 95px;
+}
+.slider-text-section {
+	bottom: 150px;
+}
+.slider-title {
+	padding-bottom: 10px;
+}
+.slider-title.dark-text p {
+	font-size: 22px;
+	line-height: 34px;	
+}
+.slider-title.dark-text a.btns {
+	line-height: 54px;	
+}
+.slider-text p {
+	padding-bottom: 10px;
+}
+a.btns {
+	line-height: 38px;
+}
+a.btns.btns-primary, .btns.btns-big {
+	line-height: 44px;
+}
+.overlay a.btns {
+	line-height: 34px;
+}
+.work-item .project-title .project-title-h4 {
+	font-size: 16px;
+}
+.team-main .overlay {
+	font-size: 13px;
+	line-height: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.team-detail {
+	font-size: 13px;
+	line-height: 21px;
+	padding-right: 15px;
+}
+.team-member-title {
+	font-size: 18px;
+}
+.module.parallax {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+
+/* ==================================================
+Blog Section
+================================================== */
+.section-breadcrumb {
+	min-height: 140px;
+}
+ul.archives li a {
+	padding-left: 30px;
+	font-size: 14px;
+	letter-spacing: 0;
+	padding-top: 0;
+}
+ul.archives li a::before {
+	left: 0;
+	width: 20px;
+	height: 20px;
+	line-height: 18px;
+}
+.contact-section h3 {
+	font-size: 22px;
+}
+
+/* ==================================================
+Blog Section Single
+================================================== */
+.single-post-share h4 {
+	font-size: 15px;
+}
+.single-post-share .social-box-icon a i {
+	width: 28px;
+	line-height: 27px;
+	margin-right: 5px;
+	font-size: 12px;
+}
+
+/* ==================================================
+Typography
+================================================== */
+.light-bg-section {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.dark-bg-section {
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/* ==================================================
+Video Section
+================================================== */
+.video-section {
+	height: 360px;
+}
+.banner-video-area { 
+	position: relative;
+}
+.video-banner-part {
+	position: relative;	
+}
+#video-banner-image {
+    display: block !important;
+}
+#full-banner-video-section {
+    display: none !important;
+} 
+.slider-title h1 {
+	font-size: 54px;
+	line-height: 70px;	
+}
+
+}
+
+@media (max-width: 992px) {
+	
+/* ==================================================
+Header Section
+================================================== */
+#main-header {
+	position: relative;
+	margin: 0;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	-webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.3);
+	z-index: 4;
+}
+.main-top-slider {
+	float: left;
+	width: 100%;
+}
+.slider-title.dark-text a.btns {    
+    margin-left: 3px;
+    margin-right: 3px;
+    line-height: 50px;
+    font-size: 14px;
+    min-width: 190px;
+}
+.slider-title.dark-text p {
+	margin-bottom:18px;	
+}
+#main-header .col-sm-4 a img {
+	width: 155px;
+	height: auto;
+}
+.hero-image .banner-part {
+	height:600px;	
+}
+.socialnetworks ul {
+	padding-right: 60px;
+	margin-bottom: 5px;
+}
+.slider-text-section {
+	bottom: 100px;
+}
+#main-slider.owl-theme .owl-dots {
+	bottom: 20px;
+}
+.video-banner-part .slider-text-section {
+	bottom: 100px;
+}
+
+/* ==================================================
+Menu
+================================================== */
+.main-navigation {
+	bottom: inherit;
+}
+.main-navigation {
+	background: none;
+}
+.navbar-default {
+	background: none;
+	border: none;
+}
+.main-navigation .navbar {
+	min-height: inherit;
+}
+.navbar .container {
+	width: 100%;
+	max-width: 100%;
+	padding: 0;
+}
+.navbar-header {
+	float: none;
+}
+.navbar-toggle {
+	margin-top: -44px;
+	display: block;
+	padding: 0;
+	border: none;
+	color: #fff;
+	border-radius: 0;
+	margin-right: 30px;
+}
+.top-nav .navbar-toggle {
+	margin-top: 15px;
+	margin-right: 0px;
+}
+.top-header .navbar-default .navbar-nav > li > a {
+	padding: 8px 20px;
+	font-size: 16px;	
+}
+.top-nav .caret {
+    margin-left: 10px;
+    margin-top: 0;
+}
+.main-top-section .caret { 
+	height: 26px;
+    float: right;
+    width: 30px;
+}
+.navbar-collapse {
+	border-top: 1px solid transparent;
+	box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	z-index: 5;
+	background: #f6f6f6;
+}
+.navbar-collapse.collapse {
+	display: none!important;
+}
+.navbar-collapse.collapse.in {
+	display: block!important;
+}
+.navbar-nav {
+	float: none!important;
+	margin: 7.5px -15px;
+}
+.main-navigation .navbar-nav > li {
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 5px;
+}
+.main-navigation .navbar-nav > li:first-child {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.main-navigation .navbar-nav > li:last-child {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.main-navigation .navbar-nav > li a {
+	color: #000;
+	display: block;
+	text-align: left;
+}
+.navbar-nav > li {
+	float: none;
+}
+.navbar-nav > li > a {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.slider-title.dark-text p {
+    font-size: 20px;
+    line-height: 32px;
+}
+.navbar-default {
+	padding-top: 0;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.top-nav .navbar-default .navbar-toggle .icon-bar {
+    background-color: #444444;
+}
+.top-nav .navbar-toggle .icon-bar {
+	width: 30px;
+	height: 4px;
+	border-radius: 0;	
+}
+#header {
+	position:absolute;	
+}
+.top-nav .navbar-default .navbar-collapse {
+    border-color: #e7e7e7;
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    border-radius: 0;
+	border: 1px solid #dbdbdd;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background: none;
+}
+.main-navigation .navbar-nav > li > a:before {
+	background: #464952;
+}
+.dropdown-menu {
+	border: 1px solid rgba(0, 0, 0, 0);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0);
+	left: inherit;
+	min-width: inherit;
+	padding: 10px 15px;
+	right: inherit;
+	width: 100%;
+	position: relative;
+}
+section {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+section#testimonials {
+	padding-bottom: 90px;
+}
+section#team {
+	padding-bottom: 70px;
+}
+
+/* ==================================================
+About Section
+================================================== */
+.about-details {
+	padding-left: 0;
+}
+a.btns.btns-primary {
+	margin-left: 0;
+}
+
+/* ==================================================
+Services Section
+================================================== */
+.service-box {
+	text-align: center;
+	padding: 30px 20px 15px;
+	border: 1px solid #272727;
+}
+.col-xs-12.services-all {
+	padding-top: 30px;
+}
+.services-icon {
+	padding-bottom: 15px;
+}
+.service-box .small-title {
+	margin-bottom: 10px;
+}
+.service-box .small-title::after {
+	left: 50%;
+	margin-left: -15px;
+}
+.service-box .overlay {
+	left: 0;
+	top: 0;
+}
+
+/* ==================================================
+My Skills And Experience Section
+================================================== */
+#pie-container {
+	max-width: 768px;
+}
+.pie-main {
+	margin-left: 15px;
+}
+.bar {
+	width: 60px;
+	border-right: 30px solid rgba(255, 255, 255, 0.2) !important;
+}
+#pie-container {
+	margin: 30px auto auto;
+	padding-top: 70px;
+}
+.skill-caption {
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.bar, .skill-caption {
+	padding-top: 28px;
+}
+.bar2 {
+	left: 85px;
+}
+.bar3 {
+	left: 165px;
+}
+.bar4 {
+	left: 245px;
+}
+.bar5 {
+	left: 325px;
+}
+.skillData-value {
+	height: 30px;
+}
+.caret {
+	margin-left: 22px;
+	margin-top: 30px;
+}
+.pie-main .skillData-value .caret {
+	top: 0;
+}
+
+/* ==================================================
+Portfolio Section
+================================================== */
+.work-item {
+	width: 50%;
+}
+.work-filter ul li a {
+	padding: 17px 10px;
+	font-size: 15px;
+}
+.work-filter ul li a span::before {
+	bottom: -6px;
+}
+.portfolio-pop {
+	text-align: center;
+}
+.portfolio-pop .text-left {
+	text-align: center;
+}
+.portfolio-pop .social-box-icon {
+	text-align: center;
+	float: none;
+}
+.portfolio-pop .social-box-icon a {
+	display: inline-block;
+}
+
+/* ==================================================
+Work Process Section
+================================================== */
+.work-process-left {
+	padding: 0px 75px 25px 185px;
+}
+.work-process-right {
+	padding: 0px 185px 25px 75px;
+}
+.process-icon img {
+	width: 160px;
+}
+.work-process-left .process-arrow {
+	bottom: 15px;
+}
+.work-process-right .process-arrow {
+	bottom: 15px;
+}
+
+/* ==================================================
+Advertiment Section
+================================================== */
+.advertise {
+	padding-right: 200px;
+}
+.advertise-btn {
+	right: 0;
+}
+
+/* ==================================================
+Team Section
+================================================== */
+.team-detail {
+	padding: 5px 20px 5px 20px;
+}
+.team-main .overlay {
+	font-size: 16px;
+	line-height: 26px;
+}
+.team-detail {
+	font-size: 14px;
+	line-height: 24px;
+}
+.parallax-elem {
+	min-height: 360px;
+}
+.video-container.mejs-skin .video-text {
+	margin-top: 40px;
+}
+.video-container.mejs-skin .mejs-overlay-play .mejs-overlay-button::before {
+	top: -20px;
+}
+.play-title {
+	top: 225px;
+}
+.testimonials-detail {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+/* ==================================================
+Contact Section
+================================================== */
+.details {
+	width: 45%;
+	margin-right: 5%;
+	float: left
+}
+.details.address {
+	float: right;
+	width: 45%;
+	margin-right: 0;
+	padding-left: 5%;
+	border-left: 1px solid #c6cacb;
+}
+.footer-about-content {
+	line-height: 26px;
+	padding: 0 25px 5px;
+}
+.footer-top .module.parallax {
+	padding-top: 35px;
+}
+
+/* ==================================================
+Footer Section
+================================================== */
+.footer-wrapper .col-xs-12.col-sm-6 {
+	float: none;
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+
+
+/* ==================================================
+Blog Single 
+================================================== */
+.section-breadcrumb {
+	min-height: 100px;
+}
+.section-breadcrumb h1 {
+	margin-top: 30px;
+	font-size: 26px;
+}
+.breadcrumb {
+	padding-top: 34px;
+}
+.inner-section {
+	height: inherit;
+}
+.inner-top-section {
+	display: none;
+}
+.testimonials-single {
+	padding-left: 0;
+	padding-right: 0;
+}
+.blog-post-wrapper {
+	padding-left: 0;
+}
+.blog-post-image {
+	float: left;
+	width: 100%;
+}
+.blog-date {
+	min-height: inherit;
+	width: auto;
+	display: block;
+	position: relative;
+	float: left;
+	margin-bottom: 5px;
+}
+.month {
+	background: #f1f1f1;
+	height: 44px;
+	width: auto;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	float: left;
+}
+.year {
+	float: left;
+	width: auto;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 12px;
+}
+.post-pagination-section {
+	padding-left: 0;
+}
+.post-share-section {
+	padding-left: 0;
+}
+.blog-comments {
+	padding-left: 0;
+}
+.post-comment {
+	padding-left: 0;
+}
+.post-share-inner {
+	padding: 15px 0 10px;
+}
+.post-comment-section {
+	padding: 25px 20px 5px;
+}
+.comment-main-title {
+	font-size: 17px;
+}
+.comment-main-title::before {
+	font-size: 18px;
+	top: 15px;
+}
+.comment-main-title {
+	padding: 15px 15px 15px 54px;
+}
+.author-img {
+	left: 20px;
+}
+.user-comment {
+	padding-left: 135px;
+}
+.user-comment-reply .author-img {
+	left: 64px;
+}
+.user-comment-reply {
+	padding-left: 180px;
+}
+.post-comment-title {
+	font-size: 18px;
+}
+.pagination-section-3 .post-pagination {
+	margin-bottom: 0;
+}
+
+/* ==================================================
+Typography
+================================================== */
+.button-section ul li {
+	width: 100%;
+}
+.light-bg-section {
+	min-height: 486px;
+}
+.main-navigation .navbar-nav > li > a::before {
+	background: none;
+}
+.slider-title h1 {
+    font-size: 44px;
+    line-height: 60px;
+}
+#video-banner-image {
+    display: block !important;
+}
+.video-banner-part { 
+	height:560px !important;
+}
+.main-navigation {
+	z-index:10;	
+}
+
+}
+
+@media (max-width: 767px) {
+	
+body {
+	font-size: 14px;
+	line-height: 22px;
+}
+
+/* ==================================================
+Header Section
+================================================== */
+.slider-title {
+	font-size: 30px;
+	line-height: 36px;
+}
+.slider-text p {
+	font-size: 18px;
+	line-height: 26px;
+}
+.slider-text {
+	max-width: 460px;
+}
+.slider-text-section {
+	bottom: 70px;
+}
+.slider-title.dark-text span.slider-title-small {
+	font-size: 20px;	
+}
+.slider-title.dark-text h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.slider-title.dark-text p {
+    font-size: 18px;
+    line-height: 28px;
+}
+.slider-title.dark-text a.btns {
+    margin-left: 2px;
+    margin-right: 2px;
+    line-height: 46px;
+    font-size: 13px;
+    min-width: 176px;
+}
+.video-banner-part .slider-text-section {
+	bottom: 130px;
+}
+a.btns {
+	font-size: 12px;
+}
+.hide-mobile {
+	display: none;
+}
+.section-heading {
+	font-size: 28px;
+	margin-bottom: 20px;
+}
+.section-heading.section-heading-pad {
+	padding-bottom: 25px;
+}
+.about-details h1 {
+	font-size: 16px;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.section-heading h2 {
+	font-size: 28px;
+}
+.section-heading.white {
+	margin-bottom: 20px;
+	padding-bottom: 25px;
+}
+.advertise p {
+	font-size: 18px;
+}
+a.btns.btns-primary, 
+.btns.btns-big {
+	line-height: 42px;
+}
+.small-title {
+	font-size: 17px;
+}
+.h3, h3 {
+	font-size: 22px;
+}
+.small-title {
+	padding-bottom: 10px;
+}
+.small-title-pad {
+	margin-bottom: 25px;
+}
+.top-nav .navbar-toggle {
+	margin-right: 15px; 	
+}
+
+/* ==================================================
+About Section
+================================================== */
+.about-details {
+	padding-bottom: 35px;
+	text-align: center;
+}
+.section-heading {
+	text-align: center;
+}
+.section-heading::after {
+	left: 50%;
+	margin-left: -35px;
+}
+.about-details h1 {
+	max-width: inherit;
+}
+.about-icon {
+	left: 50%;
+	margin-left: -15px;
+}
+.about-desc {
+	padding: 40px 0 0;
+	text-align: center;
+}
+.small-title.about-small-title {
+	padding-bottom: 5px;
+}
+ul.about-icon-box {
+	max-width: 480px;
+	margin: 0 auto;
+}
+ul.about-icon-box li::after {
+	left: 50%;
+	margin-left: -15px;
+}
+
+/* ==================================================
+My Skills And Experience Section
+================================================== */
+#fc-my-skill {
+	padding-bottom: 0px;
+}
+.slide-effect {
+	position: relative;
+	border-right: none;
+	text-align: center;
+	margin-top: 10px;
+}
+.skill-icon {
+	float: none;
+	line-height: 48px;
+	margin: 0 auto;
+}
+nav.slide-effect a {
+	font-size: 15px;
+}
+.skill-icon i {
+	font-size: 16px;
+}
+.btn-skills:hover, 
+.btn-skills:focus {
+	border-right: none;
+}
+.btn-skills {
+	font-size: 15px;
+	line-height: 22px;
+}
+.skills-pink.active, 
+.btn-skills:focus .btn-skills {
+	border-right: none;
+}
+#pie-container {
+	max-width: 386px;
+}
+.pie-main {
+	margin-left: 0;
+}
+
+/* ==================================================
+Team Section
+================================================== */
+.team-members {
+	padding-top: 0;
+}
+
+/* ==================================================
+Services Section
+================================================== */
+.col-xs-12.services-all {
+	padding-top: 15px;
+}
+
+/* ==================================================
+Portfolio Section
+================================================== */
+.work-filter ul li a {
+	padding-left: 8px;
+	padding-right: 8px;
+	font-size: 14px;
+}
+.work-filter ul li a span {
+	padding: 0;
+}
+.work-filter ul li a span::before {
+	height: 2px;
+}
+
+/* ==================================================
+Team Section
+================================================== */
+.team-member-title {
+	font-size: 16px;
+}
+
+/* ==================================================
+Advertiment Section
+================================================== */
+.module.parallax {
+	height: 256px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.advertise {
+	padding-right: 0;
+	text-align: center;
+}
+.advertise-btn {
+	bottom: inherit;
+	position: relative;
+}
+.video-title-text h2 {
+	font-size: 30px;
+	line-height: 34px;
+}
+
+/* ==================================================
+Contact Section
+================================================== */
+.fc-email, .fc-contact-no {
+	font-size: 17px;
+}
+.details i {
+	margin-right: 10px;
+}
+
+/* ==================================================
+Footer Section
+================================================== */
+.footer-wrapper {
+	padding: 40px 0;
+}
+.contact-section {
+	padding: 10px 30px 25px;
+}
+.footer-top .module.parallax {
+	height: 200px;
+}
+.footer-top .module.parallax {
+	padding-top: 14px;
+}
+.footer-logo {
+	width: 100%;
+	text-align: center;
+}
+.footer-about-content {
+	padding: 0;
+	text-align: center;
+	width: 100%;
+	border: none;
+}
+.copyright-text {
+	text-align: center;
+}
+.copyright-text {
+	line-height: 50px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.footer-social-icons {
+	text-align: center;
+	width: 100%;
+	line-height: inherit;
+	margin-bottom: 14px;
+}
+.circle {
+	float: none;
+}
+.footer-social-icons i {
+	line-height: inherit;
+}
+.footer-social-icons a {
+	background: #000 none repeat scroll 0 0;
+	border-radius: 50%;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	height: auto;
+	line-height: 30px;
+	margin-left: 5px;
+	width: 30px;
+}
+.footer-social-icons a:hover {
+	opacity: 0.6;
+}
+.footer-social-icons { 
+	display: none;
+}
+.footer-bottom-area {
+ 	min-height:inherit;  
+}
+
+/* ==================================================
+Blog Section
+================================================== */
+.section-breadcrumb .pull-right {
+	float: none !important;
+	text-align: center;
+	width: 100%;
+}
+.breadcrumb {
+	padding-top: 0;
+}
+
+/* ==================================================
+Blog Single
+================================================== */
+.content-single h3 {
+	line-height: 24px;
+}
+.content-single ul li {
+	line-height: 26px;
+}
+.content-single ol {
+	margin-left: 22px;
+}
+.content-single ol li {
+	line-height: 26px;
+}
+.post-sec .col-md-4.col-sm-6.items {
+	width: 50%;
+}
+.slider-title h1 {
+    font-size: 36px;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+.video-banner-part { 
+	height:460px !important;
+}
+
+}
+
+@media (max-width: 640px) {
+	
+/* ==================================================
+Header Section
+================================================== */
+.navbar .container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.main-navigation .navbar-nav > li {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.main-navigation .navbar-nav > li:first-child {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.main-navigation .navbar-nav > li:last-child {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.hero-image .banner-part {
+    height: 440px;
+}
+.navbar-toggle {
+	margin-right: 15px;
+}
+#main-slider .owl-nav {
+	display: none;
+}
+.slider-text p {
+	display: none;
+}
+.slider-title {
+	font-size: 24px;
+	line-height: 32px;
+}
+a.btns {
+	line-height: 35px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.section-heading {
+	font-size: 24px;
+	margin-bottom: 16px;
+}
+.section-heading.section-heading-pad {
+	padding-bottom: 20px;
+}
+section {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+section#testimonials {
+	padding-bottom: 80px;
+}
+section#team {
+	padding-bottom: 60px;
+}
+.about-details h1 {
+	font-size: 15px;
+	line-height: 24px;
+}
+.small-title.about-small-title {
+	font-size: 16px;
+}
+.section-heading h2 {
+	font-size: 24px;
+}
+.section-heading {
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+}
+.section-heading.white {
+	padding-bottom: 15px;
+	margin-bottom: 20px;
+}
+.advertise p {
+	font-size: 16px;
+	line-height: 22px;
+}
+
+/* ==================================================
+Portfolio Section
+================================================== */
+.work-item {
+	width: 100%;
+}
+.work-filter {
+	height: auto;
+}
+.work-filter ul li a {
+	padding: 8px;
+}
+#work-process {
+	background: url(../images/dot-pattern.jpg) repeat;
+}
+.portfolio-pop {
+	width: 100%;
+}
+
+/* ==================================================
+Work Process Section
+================================================== */
+.process-arrow {
+	display: none;
+}
+.work-process-left, .work-process-right {
+	border: 1px solid #272727;
+    background: #272727;
+	padding: 30px 20px 10px;
+	margin: 0;
+	text-align: center;
+	margin-bottom: 15px;
+}
+.work-process-left .process-icon, .work-process-right .process-icon {
+	position: relative;
+	left: inherit;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 13px;
+}
+.process-icon img {
+	width: 140px;
+	height: auto;
+}
+.work-process-section {
+	padding-top: 15px;
+}
+.details {
+	width: 100%;
+	margin-right: 0;
+}
+.details.address {
+	border: none;
+	background: rgba(255,255,255,0.08);
+	float: left;
+	margin-right: 0;
+	padding-left: 0;
+	width: 100%;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.small-title h3 {
+	text-align: center;
+}
+.small-title::after {
+	left: 50%;
+	margin-left: -15px;
+}
+.contact-detail {
+	text-align: center;
+}
+.social-box-icon > a {
+	display: inline-block;
+}
+.social-box-icon {
+	display: inline-block;
+	float: none;
+}
+.small-title.small-pad {
+	padding-bottom: 6px;
+}
+.footer-twitt {
+	width: 100%;
+}
+.footer-top .module.parallax {
+	height: 225px;
+}
+.footer-wrapper .col-xs-12.col-sm-6 {
+	float: left;
+	width: 100%;
+}
+.footer-twitt {
+	text-align: center;
+}
+.footer-wrapper p {
+	float: none;
+	text-align: center;
+}
+.footer-twitt-date {
+	float: none;
+}
+.footer-twitt-date i {
+	float: none;
+}
+.footer-tag {
+	text-align: center;
+}
+.footer-tag a {
+	float: none;
+}
+.btn.btn-primary {
+	width: 100%;
+}
+
+/* ==================================================
+Blog Section
+================================================== */
+.blog-content .small-title::after {
+	left: 0%;
+	margin-left: 0px;
+}
+.blog-post-wrapper {
+	padding-bottom: 30px;
+}
+
+/* ==================================================
+Blog Single
+================================================== */
+.post-share-inner .col-xs-6 {
+	width: 100%;
+}
+.pull-right.single-post-share {
+	float: left !important;
+	margin-top: 10px;
+}
+.author-img {
+	width: 65px;
+	height: 65px;
+	border: 2px solid #c6c6c6;
+}
+.user-comment {
+	padding-left: 100px;
+}
+.user-comment-reply {
+	padding-left: 125px;
+}
+.user-comment-reply .author-img {
+	left: 40px;
+}
+.small-post ul li.post-listing {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+.blog-content-style-2 {
+	border: none;
+}
+.blog-content-style-2 p {
+	font-size: 15px;
+	line-height: 24px;
+}
+.post-sec .col-md-4.col-sm-6.items {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.theme-default .col-lg-6.col-md-6 {
+	float: left;
+	vertical-align: inherit;
+	display: inline-block;
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+/* ==================================================
+Typography
+================================================== */
+.theme-default .post-style-display .col-lg-6.col-md-6 {
+	width: 100%;
+}
+
+/* ==================================================
+Video Section
+================================================== */
+.video-section {
+	height: 270px;
+}
+span.slider-title-small {
+	font-size: 18px;
+	line-height: 28px;	
+}
+.slider-title h1 {
+    font-size: 32px;
+    line-height: 46px;
+    margin-bottom: 20px;
+}
+.video-banner-part { 
+	height:360px !important;
+}
+
+}
+
+@media (max-width: 480px) {
+	
+/* ==================================================
+Header Section
+================================================== */
+.navbar .container {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.main-navigation .navbar-nav > li {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.slider-text-section {
+	bottom: 30px;
+}
+.video-banner-part .slider-text-section {
+	bottom: 80px;
+}
+.slider-title.dark-text span.slider-title-small {
+    font-size: 16px;
+}
+#main-slider.owl-theme .owl-dots {
+	bottom: 10px;
+}
+.list-btn {
+	display: none;
+}
+.section-heading h2 {
+	font-size: 22px;
+}
+.section-heading {
+	font-size: 22px;
+}
+.hero-image .banner-part {
+    height: 400px;
+}
+.slider-title {
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 0.8px;
+	line-height: 32px;
+	text-transform: uppercase;
+}
+.fix-title.slider-title {
+	text-transform:inherit;	
+}
+.slider-title.dark-text p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.small-title {
+	font-size: 15px;
+}
+
+/* ==================================================
+My Skills And Experience Section
+================================================== */
+#pie-container {
+	max-width: 320px;
+}
+nav.slide-effect a {
+	font-size: 13px;
+	line-height: 22px;
+}
+.pie-main .skills-count {
+	font-size: 12px;
+}
+.bar {
+	width: 41px !important;
+	left: 0px;
+	border-right: 20px solid rgba(255, 255, 255, 0.2) !important;
+}
+.bar, .skill-caption {
+	padding-top: 18px;
+}
+.bar2 {
+	left: 62px;
+}
+.bar3 {
+	left: 123px;
+}
+.bar4 {
+	left: 185px;
+}
+.bar5 {
+	left: 246px;
+}
+.skillData-value {
+	height: 30px;
+}
+.caret {
+	margin-left: 13px;
+	margin-top: 30px;
+}
+.skill-caption {
+	margin-bottom: 15px;
+	font-size: 15px;
+}
+.btn-skills {
+	margin: 0;
+}
+.advertise p {
+	font-size: 14px;
+	line-height: 18px;
+}
+.work-filter ul li a {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.modal-header .close {
+	margin-right: -20px;
+	margin-top: -20px;
+}
+a.btns.btns-primary, .btns.btns-big {
+	line-height: 36px;
+}
+.video-title-text h2 {
+	font-size: 24px;
+	line-height: 32px;
+}
+
+/* ==================================================
+Footer Section
+================================================== */
+.footer-wrapper .col-xs-12 {
+	margin-bottom: 15px;
+}
+.contact-section {
+	padding: 0 15px;
+}
+.caption-style {
+	text-align: center;
+}
+.caption-style li {
+	float: none;
+	display: inline-block;
+}
+.copyright-text {
+	line-height: 20px;
+	padding-bottom: 18px;
+	padding-top: 15px;
+}
+.footer-about-content {
+	line-height: 22px;
+}
+.footer-logo a img {
+	width: 180px;
+}
+.footer-bottom-area {
+ 	min-height:inherit;  
+}
+.footer-social-icons {
+ 	display: none;  
+}
+.copyright-text {
+	line-height: 20px;
+	padding-bottom: 18px;
+	padding-top: 15px;
+}
+
+
+/* ==================================================
+Blog Section
+================================================== */
+.small-title a {
+	line-height: 20px;
+}
+.post-pagination-section {
+	padding-left: 0px;
+}
+.box .col-xs-6 {
+	width: 100%;
+}
+.blog-post-action li {
+	padding-right: 8px;
+}
+
+/* ==================================================
+Blog Single
+================================================== */
+.content-single h3 {
+	line-height: 20px;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+.content-single img {
+	margin-bottom: 10px;
+}
+.content-single ul li {
+	line-height: 20px;
+	margin-bottom: 4px;
+}
+.content-single ol {
+	margin-left: 22px;
+}
+.content-single ol li {
+	line-height: 20px;
+	margin-bottom: 4px;
+}
+.author-img {
+	width: 36px;
+	height: 36px;
+	border: 0px solid #c6c6c6;
+}
+.user-comment {
+	padding-left: 70px;
+}
+.user-comment-reply {
+	padding-left: 70px;
+}
+.user-comment-reply .author-img {
+	left: 20px;
+}
+
+/* ==================================================
+Typography
+================================================== */
+img.alignleft { 
+	width: 100%;
+}
+img.alignright { 
+	width: 100%;
+}
+
+/* ==================================================
+Video Section
+================================================== */
+.video-section {
+	height: 270px;
+}
+span.slider-title-small {
+	font-size: 16px;
+	line-height: 26px;	
+}
+.slider-title h1 {
+    font-size: 26px;
+    line-height: 32px;
+    margin-bottom: 0px;
+}
+.video-banner-part { 
+	height:300px !important;
+}
+
+}

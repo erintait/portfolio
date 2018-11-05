@@ -1,0 +1,8 @@
+.overlay-slider{
+    background:#bb4c10;
+ 	opacity:0.95;
+}
+@media (max-width: 992px) {
+ #main-header  {background:#bb4c10;}
+    
+}

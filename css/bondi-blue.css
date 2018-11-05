@@ -1,0 +1,305 @@
+/* Bondi Blue Color
+================================================== */
+/* Slider
+================================================== */
+.overlay-slider{
+    background:#00a7b4;
+ 	opacity:0.90;
+}
+/* Dark Version */
+.dark .about-details h1, 
+.dark .small-title, 
+.dark .process-content-h4, 
+.dark .testimonial-author, 
+.dark .footer-social-icons a:hover {
+	color: #00a7b4;
+}
+.dark .btn.btn-primary {
+	background: #00a7b4;	
+}
+.dark .btn.btn-primary:hover {
+    background: #d3d4d8;
+    color: #1a1d24;
+}
+
+@media (max-width: 992px) {
+/* Section main */
+#main-header{
+    background:#00a7b4;
+ 	opacity:1; 
+}
+.main-navigation .navbar-nav > li a:hover{
+ 	color:#00a7b4;
+}
+.main-navigation .navbar-nav > li > a:hover, .main-navigation .navbar-nav > li.active > a {
+    color: #00a7b4;
+}
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > a:hover, .navbar-default .navbar-nav > li:focus { color:#00a7b4 !important; background:none !important; }
+.slider-title.dark-text a.color-btn {
+	background: #00a7b4;
+}
+.slider-title.dark-text a.color-btn:hover {
+	background: #00919c;
+}
+.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover {
+    background: #00a7b4;
+    border:1px solid #00a7b4;
+}
+#main-slider.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover{
+     color:#00a7b4;  
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+ 	background:#00a7b4;
+  	border:1px solid #00a7b4;
+}
+.owl-controls .owl-nav [class*="owl-"]:hover{
+    background:#00a7b4;   
+}
+@media (min-width:768px) {
+    .main-navigation .navbar-default.navbar-shrink .navbar-nav > li > a:hover{
+     	color:#00a7b4;
+    }
+}
+/* Social Networking
+================================================== */
+.socialnetworks ul li a:hover{
+    color:#00a7b4;
+}
+
+/* Top Navigation
+================================================== */
+.main-navigation .navbar-shrink .navbar-nav > li > a:before {
+ 	background:#00a7b4;
+}
+.main-navigation .navbar-nav > li > a:focus {
+  	color:#fff;
+}
+
+/* Section About
+================================================== */
+.section-heading::after {
+    background: #00a7b4;
+}
+
+a.btns.btns-primary:hover{
+ 	background:#00a7b4;
+  	border:1px solid #00a7b4;
+   	color:#fff;
+}
+
+ul.about-icon-box li::after {
+ 	background:#00a7b4;
+}
+
+/* Section Services
+================================================== */
+.small-title::after {
+ 	background:#00a7b4; 
+}
+.services-icon{
+ 	color:#00a7b4;
+}
+/* Section My Skill
+================================================== */
+.skills-pink.active .skill-icon{
+ 	border:1px solid #00a7b4;
+  	background:#00a7b4;
+}
+.skills-pink.active, .btn-skills:focus .btn-skills{
+ 	border-right:2px solid #00a7b4;
+}
+.btn-skills:hover, .btn-skills:focus {
+  	border-right:2px solid #00a7b4;
+}
+.btn-skills:hover .skill-icon, .btn-skills:focus .skill-icon {
+ 	border:1px solid #00a7b4;
+  	background:#00a7b4;
+}
+
+/* Section Portfolio
+================================================== */
+.work-item .project-view a:hover { 
+ 	background: #00a7b4;  
+  	border: 1px solid #00a7b4;
+}
+.work-item .project-title h4 a:hover {
+ 	 color:#00a7b4;
+}
+.work-filter ul li a span::before { 
+	background-color: #00a7b4;
+}
+.work-item .project-view a {
+ 	border: 1px solid #00a7b4;
+  	color:#00a7b4;
+}
+.work-item .project-view a:hover {
+ 	background: #00a7b4;
+  	border: 1px solid #00a7b4;
+}
+.portfolio-pop a{
+ 	color:#00a7b4;
+}
+
+/* Section Advertise
+================================================== */
+.overlay-bg{
+ 	background:rgba(0, 167, 180, 0.89);
+}
+.video-title::after {
+    background: #00a7b4;
+}
+/* Section Process
+================================================== */
+@media (max-width: 640px) {
+.process-content h4, .process-content-right h4{
+	color:#00a7b4;
+}
+}
+/* Section Team
+================================================== */
+.team-member-title{
+	color:#00a7b4;  
+}
+.team-social li a:hover{
+ 	color:#00a7b4;
+}
+
+/* Section Testimonial
+================================================== */
+.quote-icon{
+ 	color:#00a7b4; 
+}
+/* Section Blog
+================================================== */
+.blog-post-content .small-title a:hover{
+  	color:#00a7b4; 
+}
+.blog-post-action li a:hover{
+  	color:#00a7b4;
+}
+.blog-post-action li a:hover i{
+  	color:#00a7b4;
+}
+/* Section Contact
+================================================== */
+.btn.btn-primary:hover{
+    background: #00a7b4;
+}
+.social-box-icon a i:hover {
+ 	background: #00a7b4;
+  	border: 1px solid #00a7b4;
+}
+/* Section Footer
+================================================== */
+label .btn.btn-primary{
+ 	background:#00a7b4;
+}
+.footer-twitt a {
+    color: #00a7b4;
+}
+.footer-tag a:hover {
+    background: #00a7b4;
+    border: 1px solid #00a7b4;
+}
+
+/* Blog page
+================================================== */
+.orange-color{
+	background:#00a7b4; 
+}
+.breadcrumb li a:hover{
+ 	color: #00a7b4;
+}
+.post-pagination a:hover{
+ 	background:#00a7b4;
+  	border:1px solid #00a7b4;
+}
+.post-pagination span{
+ 	background:#00a7b4;
+  	border:1px solid #00a7b4;
+}
+
+.search-box button:hover i{
+ 	color: #00a7b4;
+}
+.box h4::after {
+ 	background:#00a7b4;
+}
+ul.categories-list li a:hover{
+ 	color: #00a7b4;
+}
+ul.categories-list li a:hover span{
+ 	background:#00a7b4;
+  	border:1px solid #00a7b4;
+}
+.resent-posts-title a:hover{
+ 	color: #00a7b4;
+}
+.resent-posts p a:hover{
+ 	color: #00a7b4;
+}
+ul.archives li a:hover{
+ 	color: #00a7b4;
+}
+ul.archives li a:hover:before{
+ 	background:#00a7b4;
+  	border:1px solid #00a7b4;
+}
+.popular-tag a:hover {
+    background: #00a7b4;
+    border: 1px solid #00a7b4;
+}
+.fc-border {
+    background: #00a7b4;
+}
+
+/* Blog Single page
+================================================== */
+.blog-content .small-title a:hover{
+ 	color: #00a7b4;
+}
+.content-single ul li:before {
+ 	color: #00a7b4;
+}
+.content-single a{
+ 	color: #00a7b4;
+}
+.single-post-share h4{
+ 	color: #00a7b4;
+}
+ul.post-tag li a:hover{
+ 	color:#00a7b4;
+}
+.comment-main-title:before{
+ 	color:#00a7b4;
+}
+.comment-reply-btn a{
+ 	color:#00a7b4;
+}
+.comment-content-top h5 a{
+ 	color:#00a7b4;
+}
+
+/* 404 page
+================================================== */
+.error-section h2{
+ 	color:#00a7b4;
+}
+
+/* Blog 02 Page
+================================================== */
+.post-border{
+ 	background: #00a7b4;
+}
+
+/* Theme Default
+================================================== */
+.theme-default h1::after,
+.theme-default h2::after,
+.theme-default h3::after,
+.theme-default h4::after,
+.theme-default h5::after,
+.theme-default h6::after {
+ 	background: #00a7b4;
+}

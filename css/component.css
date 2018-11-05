@@ -1,0 +1,420 @@
+button.menu-icon{
+	width: 48px;
+    height: 48px;
+    display: block;
+    top: 100px;
+    left: 100%;
+    position: absolute;
+    text-align: center;
+    line-height: 48px;
+    font-size: 22px;
+    background: #292727;
+    color: #FFF;
+    border-radius: 0 4px 4px 0;
+    border:0;
+    padding:0;
+    margin:0;
+}
+button.menu-icon i{
+ 	margin:0;
+  	float:left;
+   	width:100%;
+}
+/* General styles for all menus */
+.cbp-spmenu {
+	background: #2F2C2C;
+	position: fixed;
+}
+
+.cbp-spmenu a:hover {
+	background: #258ecd;
+}
+
+.cbp-spmenu a:active {
+	background: #afdefa;
+	color: #47a3da;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	width: 255px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+
+
+.cbp-spmenu-horizontal {
+	width: 100%;
+	height: 150px;
+	left: 0;
+	z-index: 1000;
+	overflow: hidden;
+}
+
+.cbp-spmenu-horizontal h3 {
+	height: 100%;
+	width: 20%;
+	float: left;
+}
+
+.cbp-spmenu-horizontal a {
+	float: left;
+	width: 20%;
+	padding: 0.8em;
+	border-left: 1px solid #258ecd;
+}
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+	left: -255px;
+}
+
+.cbp-spmenu-right {
+	right: -255px;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: 0px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+	right: 0px;
+}
+
+/* Horizontal menu that slides from the top or bottom */
+
+.cbp-spmenu-top {
+	top: -150px;
+}
+
+.cbp-spmenu-bottom {
+	bottom: -150px;
+}
+
+.cbp-spmenu-top.cbp-spmenu-open {
+	top: 0px;
+}
+
+.cbp-spmenu-bottom.cbp-spmenu-open {
+	bottom: 0px;
+}
+
+/* Push classes applied to the body */
+
+.cbp-spmenu-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.cbp-spmenu-push-toright {
+	left: 240px;
+}
+
+.cbp-spmenu-push-toleft {
+	left: -240px;
+}
+
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+/* simply style */
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+}
+
+.fade.in {
+    opacity: 1;
+}
+
+.collapse {
+    display: none;
+}
+
+.collapse.in {
+    display: inline-block;
+}
+
+tr.collapse.in {
+    display: table-row;
+}
+
+tbody.collapse.in {
+    display: table-row-group;
+}
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    -webkit-transition-property: height, visibility;
+    -o-transition-property: height, visibility;
+    transition-property: height, visibility;
+    -webkit-transition-duration: 0.35s;
+    -o-transition-duration: 0.35s;
+    transition-duration: 0.35s;
+    -webkit-transition-timing-function: ease;
+    -o-transition-timing-function: ease;
+    transition-timing-function: ease;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pull-right {
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.text-hide {
+    color: transparent;
+    text-shadow: none;
+    background-color: transparent;
+    border: 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.affix {
+    position: fixed;
+}
+
+.control-list ul{
+ 	padding:0;
+  	margin:0;
+   	float:left;
+    width:100%;
+}
+#do-container {
+    position: fixed;
+    z-index: 999999;
+    left: -255px;
+    height: 100%;
+    top: 0;
+    width: 255px;
+    padding: 0;
+    background: #2F2C2C;
+    color: #efefef;
+    transition: left 0.3s;
+    /* border-radius: 0 0px 4px 0; */
+    /* overflow: hidden; */
+}
+
+#do-container.open {
+    left: 0;
+}
+
+#do-container .do-header {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    background: #292727;
+    color: #fff;
+    /* margin-left: 20px; */
+    margin: 0;
+    padding: 10px 20px;
+}
+
+#do-container .do-section {
+    border: 0;
+    /* border-top: 1px solid #5F5F5F; */
+    /* border-bottom: 1px solid #000; */
+    background-color: transparent;
+    margin: 0;
+    box-shadow: none;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+#do-container .do-section-list {
+    /* box-shadow: 0 1px 0 #303030; */
+    background: #2F2C2C;
+    /* border: 1px solid #434040; */
+    border-radius: 0 4px 4px 0;
+    margin-bottom: 0;
+}
+
+#do-container .do-section h3 {
+    margin: 0;
+    background: #555252;
+    color: #E9E8E8;
+    height: 45px;
+    font-size: 20px;
+    line-height: 45px;
+    border: 0;
+    padding-left: 20px;
+    display: block;
+    width: 100%;
+    outline: none;
+    text-align: left;
+    position: relative;
+    display: none;
+}
+
+#do-container .do-section h3:hover {
+    cursor: pointer;
+}
+
+#do-container label {
+    display: block;
+    /* margin: 20px 0 10px 0; */
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+#do-container .do-section .control-list {
+    padding: 0 20px;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#do-container .do-section .do-control {
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+    display: inline-block;
+    width: 100%;
+}
+
+#do-container .do-section .do-control:last-child {
+    margin-bottom: 30px;
+}
+.control-list ul.do-buttonset {
+    list-style: none;
+    /* overflow: hidden; */
+    margin: 5px 0 15px !important;
+    padding: 0;
+    float:left;
+    width:100%;
+}
+.do-header {
+    font-weight: 400;
+    font-size: 18px;
+    background: #292727;
+    color: #fff;
+    margin: 0;
+    padding: 16px 20px 16px 26px;
+    letter-spacing:1px;
+}
+.do-buttonset li {
+    float: left;
+}
+
+.do-buttonset .do-button {
+    margin-right: 15px;
+    padding: 10px 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 2px;
+    background-color: #ffffff;
+    font-weight:600;
+}
+.do-buttonset .do-button:hover {
+    background-color: #f49148;
+    color: #ffffff;
+}
+.do-buttonset .do-button.active {
+    background-color: #f49148;
+    color: #ffffff;
+}
+
+.do-pattern {
+    list-style: none;
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.do-pattern li {
+    float: left;
+    display: inline-flex;
+}
+
+.do-pattern .do-button {
+    display: inline-block;
+    width: 38px;
+    height: 24px;
+    margin: 5px 15px 10px 0;
+    border-radius: 2px;
+    cursor: pointer;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+}
+
+.do-pattern .do-button:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.do-pattern .do-button.active {
+    border: 1px solid #eee;
+}
+.cbp-main .panel {
+    background:none;
+    border:none;
+    border-radius: 0px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.0);
+    margin-bottom: 0px;
+}
+.control-list {
+    padding: 0 16px 0 26px;
+    width: 100%;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.control-list label {
+    display: block;
+    margin: 20px 0 10px 0;
+    text-transform: uppercase;
+    font-size: 13px;
+    color:#fff;
+    letter-spacing:1px;
+    float:left;
+    width:100%;
+}
+

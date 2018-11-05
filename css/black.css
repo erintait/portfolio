@@ -1,0 +1,278 @@
+/* Black Color
+================================================== */
+/* Slider
+================================================== */
+.overlay-slider{
+    background:#212528;
+ 	opacity:0.90;
+}
+@media (max-width: 992px) {
+/* Section main */
+#main-header{
+    background:#212528;
+ 	opacity:1; 
+}
+.main-navigation .navbar-nav > li a:hover{
+ 	color:#212528;
+}
+.main-navigation .navbar-nav > li > a:hover, .main-navigation .navbar-nav > li.active > a {
+    color: #212528;
+}
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > a:hover, .navbar-default .navbar-nav > li:focus { color:#212528 !important; background:none !important; }
+.slider-title.dark-text a.color-btn {
+	background: #212528;
+}
+.slider-title.dark-text a.color-btn:hover {
+	background: #101213;
+}
+.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover {
+    background: #212528;
+    border:1px solid #212528;
+}
+#main-slider.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover{
+     color:#212528;  
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+ 	background:#212528;
+  	border:1px solid #212528;
+}
+.owl-controls .owl-nav [class*="owl-"]:hover{
+    background:#212528;   
+}
+@media (min-width:768px) {
+    .main-navigation .navbar-default.navbar-shrink .navbar-nav > li > a:hover{
+     	color:#212528;
+    }
+}
+/* Social Networking
+================================================== */
+.socialnetworks ul li a:hover{
+    color:#212528;
+}
+
+/* Top Navigation
+================================================== */
+.main-navigation .navbar-shrink .navbar-nav > li > a:before {
+ 	background:#212528;
+}
+.main-navigation .navbar-nav > li > a:focus {
+  	color:#fff;
+}
+
+/* Section About
+================================================== */
+.section-heading::after {
+    background: #212528;
+}
+
+a.btns.btns-primary:hover{
+ 	background:#212528;
+  	border:1px solid #212528;
+   	color:#fff;
+}
+
+ul.about-icon-box li::after {
+ 	background:#212528;
+}
+
+/* Section Services
+================================================== */
+.small-title::after {
+ 	background:#212528; 
+}
+.services-icon{
+ 	color:#212528;
+}
+/* Section My Skill
+================================================== */
+.skills-pink.active .skill-icon{
+ 	border:1px solid #212528;
+  	background:#212528;
+}
+.skills-pink.active, .btn-skills:focus .btn-skills{
+ 	border-right:2px solid #212528;
+}
+.btn-skills:hover, .btn-skills:focus {
+  	border-right:2px solid #212528;
+}
+.btn-skills:hover .skill-icon, .btn-skills:focus .skill-icon {
+ 	border:1px solid #212528;
+  	background:#212528;
+}
+
+/* Section Portfolio
+================================================== */
+.work-item .project-view a:hover { 
+ 	background: #212528;  
+  	border: 1px solid #212528;
+}
+.work-item .project-title h4 a:hover {
+ 	 color:#212528;
+}
+.work-filter ul li a span::before { 
+	background-color: #212528;
+}
+.work-item .project-view a {
+ 	border: 1px solid #212528;
+  	color:#212528;
+}
+.work-item .project-view a:hover {
+ 	background: #212528;
+  	border: 1px solid #212528;
+}
+.portfolio-pop a{
+ 	color:#212528;
+}
+
+/* Section Advertise
+================================================== */
+.overlay-bg{
+ 	background:rgba(33, 37, 40, 0.89);
+}
+.video-title::after {
+    background: #212528;
+}
+/* Section Process
+================================================== */
+@media (max-width: 640px) {
+.process-content h4, .process-content-right h4{
+	color:#212528;
+}
+}
+/* Section Team
+================================================== */
+.team-member-title{
+	color:#212528;  
+}
+.team-social li a:hover{
+ 	color:#212528;
+}
+
+/* Section Testimonial
+================================================== */
+.quote-icon{
+ 	color:#212528; 
+}
+/* Section Blog
+================================================== */
+.blog-post-content .small-title a:hover{
+  	color:#212528; 
+}
+.blog-post-action li a:hover{
+  	color:#212528;
+}
+.blog-post-action li a:hover i{
+  	color:#212528;
+}
+/* Section Contact
+================================================== */
+.btn.btn-primary:hover{
+    background: #212528;
+}
+.social-box-icon a i:hover {
+ 	background: #212528;
+  	border: 1px solid #212528;
+}
+/* Section Footer
+================================================== */
+label .btn.btn-primary{
+ 	background:#212528;
+}
+.footer-twitt a {
+    color: #212528;
+}
+.footer-tag a:hover {
+    background: #212528;
+    border: 1px solid #212528;
+}
+
+/* Blog page
+================================================== */
+.orange-color{
+	background:#212528; 
+}
+.breadcrumb li a:hover{
+ 	color: #212528;
+}
+.post-pagination a:hover{
+ 	background:#212528;
+  	border:1px solid #212528;
+}
+.post-pagination span{
+ 	background:#212528;
+  	border:1px solid #212528;
+}
+
+.search-box button:hover i{
+ 	color: #212528;
+}
+.box h4::after {
+ 	background:#212528;
+}
+ul.categories-list li a:hover{
+ 	color: #212528;
+}
+ul.categories-list li a:hover span{
+ 	background:#212528;
+  	border:1px solid #212528;
+}
+.resent-posts-title a:hover{
+ 	color: #212528;
+}
+.resent-posts p a:hover{
+ 	color: #212528;
+}
+ul.archives li a:hover{
+ 	color: #212528;
+}
+ul.archives li a:hover:before{
+ 	background:#212528;
+  	border:1px solid #212528;
+}
+.popular-tag a:hover {
+    background: #212528;
+    border: 1px solid #212528;
+}
+.fc-border {
+    background: #212528;
+}
+
+/* Blog Single page
+================================================== */
+.blog-content .small-title a:hover{
+ 	color: #212528;
+}
+.content-single ul li:before {
+ 	color: #212528;
+}
+.content-single a{
+ 	color: #212528;
+}
+.single-post-share h4{
+ 	color: #212528;
+}
+ul.post-tag li a:hover{
+ 	color:#212528;
+}
+.comment-main-title:before{
+ 	color:#212528;
+}
+.comment-reply-btn a{
+ 	color:#212528;
+}
+.comment-content-top h5 a{
+ 	color:#212528;
+}
+
+/* 404 page
+================================================== */
+.error-section h2{
+ 	color:#212528;
+}
+
+/* Blog 02 Page
+================================================== */
+.post-border{
+ 	background: #212528;
+}

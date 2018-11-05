@@ -1,0 +1,333 @@
+/* Orange Color
+
+================================================== */
+/* Slider
+================================================== */
+.overlay-slider{
+	background: rgba(7, 9, 21, 0.75);
+	opacity: 1;	
+}
+.dark .overlay-slider.video-overlay-slider {
+	background:url(../images/overlay-pattern-1.png) repeat left top;
+	opacity:1; 	
+}
+
+/* Dark Version */
+.dark .about-details h1, 
+.dark .small-title, 
+.dark .process-content-h4, 
+.dark .testimonial-author, 
+.dark .footer-social-icons a:hover {
+	color: #f49148;
+}
+.dark .btn.btn-primary {
+	background: #f49148;	
+}
+.dark .btn.btn-primary:hover {
+    background: #d3d4d8;
+    color: #1a1d24;
+}
+.dark .overlay-slider.dark-overlay-slider {
+	background: rgba(7, 9, 21, 0.92);
+	opacity: 1;	
+}
+
+@media (max-width: 992px) {
+	
+/* Section main */
+#main-header{
+    background-image: -webkit-linear-gradient(left, #bb4c10, #250c3d);
+	background-image: -moz-linear-gradient(left, #bb4c10, #250c3d);
+	background-image: -o-linear-gradient(left, #bb4c10, #250c3d);
+	background-image: -ms-linear-gradient(left, #bb4c10, #250c3d);
+	background-image: linear-gradient(to right, #bb4c10, #250c3d);
+ 	opacity:1; 
+}
+.main-navigation .navbar-nav > li > a:hover, .main-navigation .navbar-nav > li.active > a {
+    color: #f49148;
+}
+
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > a:hover, .navbar-default .navbar-nav > li:focus { 
+	color: #f49148 !important; 
+	background: none !important; 
+}
+.top-header  .navbar-default .navbar-nav > li > a:hover {
+	color: #f49148;
+}
+.slider-title.dark-text a.color-btn {
+	background: #f49148;
+}
+.slider-title.dark-text a.color-btn:hover {
+	background: #e98134;
+}
+.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover {
+    background: #f49148;
+    border: 1px solid #f49148;
+}
+#main-slider.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover {
+     color: #f49148;  
+}
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+ 	background: #f49148;
+  	border: 1px solid #f49148;
+}
+.owl-controls .owl-nav [class*="owl-"]:hover {
+    background: #f49148;   
+}
+
+@media (min-width:768px) {
+	
+.main-navigation .navbar-default.navbar-shrink .navbar-nav > li > a:hover {
+    color: #f49148;
+}
+
+}
+
+/* Social Networking
+================================================== */
+.socialnetworks ul li a:hover {
+    color: #f49148;
+}
+
+/* Top Navigation
+================================================== */
+.main-navigation .navbar-shrink .navbar-nav > li > a:before {
+ 	background: #f49148;
+}
+.main-navigation .navbar-nav > li > a:focus {
+  	color: #f49148;
+}
+
+/* Section About
+================================================== */
+.section-heading::after {
+    background: #f49148;
+}
+
+a.btns.btns-primary:hover{
+ 	background: #f49148;
+  	border: 1px solid #f49148;
+   	color: #fff;
+}
+
+ul.about-icon-box li::after {
+ 	background: #f49148;
+}
+
+/* Section Services
+================================================== */
+.small-title::after {
+ 	background: #f49148; 
+}
+.services-icon{
+ 	color:#f49148;
+}
+/* Section My Skill
+================================================== */
+.skills-pink.active .skill-icon{
+ 	border: 1px solid #f49148;
+  	background: #f49148;
+}
+.skills-pink.active, 
+.btn-skills:focus .btn-skills{
+ 	border-right: 2px solid #f49148;
+}
+.btn-skills:hover, 
+.btn-skills:focus {
+  	border-right: 2px solid #f49148;
+}
+.btn-skills:hover .skill-icon, 
+.btn-skills:focus .skill-icon {
+ 	border: 1px solid #f49148;
+  	background: #f49148;
+}
+
+/* Section Portfolio
+================================================== */
+.work-item .project-view a:hover { 
+ 	background: #f49148;  
+  	border: 1px solid #f49148;
+}
+.work-item .project-title h4 a:hover {
+ 	 color: #f49148;
+}
+.work-filter ul li a span::before { 
+	background-color: #f49148;
+}
+.work-item .project-view a {
+ 	border: 1px solid #f49148;
+  	color: #f49148;
+}
+.work-item .project-view a:hover {
+ 	background: #f49148;
+  	border: 1px solid #f49148;
+}
+.portfolio-pop a{
+ 	color: #f49148;
+}
+
+/* Section Advertise
+================================================== */
+.overlay-bg{
+ 	background: rgba(202, 105, 19, 0.89);
+}
+.video-title::after {
+    background: #f49148;
+}
+/* Section Process
+================================================== */
+@media (max-width: 640px) {
+.process-content h4, 
+.process-content-right h4 {
+	color: #f49148;
+}
+}
+/* Section Team
+================================================== */
+.team-member-title {
+	color: #f49148;  
+}
+.team-social li a:hover {
+ 	color: #f49148;
+}
+
+/* Section Testimonial
+================================================== */
+.quote-icon {
+ 	color: #f49148; 
+}
+/* Section Blog
+================================================== */
+.blog-post-content .small-title a:hover {
+  	color: #f49148; 
+}
+.blog-post-action li a:hover {
+  	color: #f49148;
+}
+.blog-post-action li a:hover i {
+  	color: #f49148;
+}
+/* Section Contact
+================================================== */
+.btn.btn-primary:hover {
+    background: #f49148;
+}
+.social-box-icon a i:hover {
+ 	background: #f49148;
+  	border: 1px solid #f49148;
+}
+/* Section Footer
+================================================== */
+label .btn.btn-primary {
+ 	background: #f49148;
+}
+.footer-twitt a {
+    color: #f0934e;
+}
+.footer-tag a:hover {
+    background: #f49148;
+    border: 1px solid #f49148;
+}
+
+/* Blog page
+================================================== */
+.orange-color{
+	background: #f49148; 
+}
+.breadcrumb li a:hover{
+ 	color: #f0934e;
+}
+.post-pagination a:hover{
+ 	background: #f49148;
+  	border: 1px solid #f49148;
+}
+.post-pagination span{
+ 	background: #f49148;
+  	border: 1px solid #f49148;
+}
+
+.search-box button:hover i{
+ 	color: #f0934e;
+}
+.box h4::after {
+ 	background: #f49148;
+}
+ul.categories-list li a:hover {
+ 	color: #f0934e;
+}
+ul.categories-list li a:hover span {
+ 	background: #f49148;
+  	border: 1px solid #f49148;
+}
+.resent-posts-title a:hover {
+ 	color: #f0934e;
+}
+.resent-posts p a:hover {
+ 	color: #f0934e;
+}
+ul.archives li a:hover {
+ 	color: #f0934e;
+}
+ul.archives li a:hover:before {
+ 	background: #f49148;
+  	border: 1px solid #f49148;
+}
+.popular-tag a:hover {
+    background: #f49148;
+    border: 1px solid #f49148;
+}
+.fc-border {
+    background: #f49148;
+}
+/* Blog Single page
+================================================== */
+.blog-content .small-title a:hover {
+ 	color: #f0934e;
+}
+.content-single ul li:before {
+ 	color: #f0934e;
+}
+.content-single a {
+ 	color: #f0934e;
+}
+.single-post-share h4 {
+ 	color: #f0934e;
+}
+ul.post-tag li a:hover {
+ 	color: #f0934e;
+}
+.comment-main-title:before {
+ 	color: #f0934e;
+}
+.comment-reply-btn a {
+ 	color: #f0934e;
+}
+.comment-content-top h5 a {
+ 	color: #f0934e;
+}
+
+/* 404 page
+================================================== */
+.error-section h2{
+ 	color: #f0934e;
+}
+
+/* Blog 02 Page
+================================================== */
+.post-border{
+ 	background: #f49148;
+}
+
+/* Theme Default
+================================================== */
+.theme-default h1::after,
+.theme-default h2::after,
+.theme-default h3::after,
+.theme-default h4::after,
+.theme-default h5::after,
+.theme-default h6::after {
+ 	background: #f49148;
+}

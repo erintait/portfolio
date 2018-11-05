@@ -1,0 +1,305 @@
+/* Pink Color
+================================================== */
+/* Slider
+================================================== */
+.overlay-slider{
+    background:#fe3466;
+ 	opacity:0.90;
+}
+/* Dark Version */
+.dark .about-details h1, 
+.dark .small-title, 
+.dark .process-content-h4, 
+.dark .testimonial-author, 
+.dark .footer-social-icons a:hover {
+	color: #fe3466;
+}
+.dark .btn.btn-primary {
+	background: #fe3466;	
+}
+.dark .btn.btn-primary:hover {
+    background: #d3d4d8;
+    color: #1a1d24;
+}
+
+@media (max-width: 992px) {
+/* Section main */
+#main-header{
+    background:#fe3466;
+ 	opacity:1; 
+}
+.main-navigation .navbar-nav > li a:hover{
+ 	color:#fe3466;
+}
+.main-navigation .navbar-nav > li > a:hover, .main-navigation .navbar-nav > li.active > a {
+    color: #fe3466;
+}
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > a:hover, .navbar-default .navbar-nav > li:focus { color:#fe3466 !important; background:none !important; }
+.slider-title.dark-text a.color-btn {
+	background: #fe3466;
+}
+.slider-title.dark-text a.color-btn:hover {
+	background: #e62655;
+}
+.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover {
+    background: #fe3466;
+    border:1px solid #fe3466;
+}
+#main-slider.owl-theme .owl-controls .owl-nav [class*="owl-"]:hover{
+     color:#fe3466;  
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+ 	background:#fe3466;
+  	border:1px solid #fe3466;
+}
+.owl-controls .owl-nav [class*="owl-"]:hover{
+    background:#fe3466;   
+}
+@media (min-width:768px) {
+    .main-navigation .navbar-default.navbar-shrink .navbar-nav > li > a:hover{
+     	color:#fe3466;
+    }
+}
+/* Social Networking
+================================================== */
+.socialnetworks ul li a:hover{
+    color:#fe3466;
+}
+
+/* Top Navigation
+================================================== */
+.main-navigation .navbar-shrink .navbar-nav > li > a:before {
+ 	background:#fe3466;
+}
+.main-navigation .navbar-nav > li > a:focus {
+  	color:#fff;
+}
+
+/* Section About
+================================================== */
+.section-heading::after {
+    background: #fe3466;
+}
+
+a.btns.btns-primary:hover{
+ 	background:#fe3466;
+  	border:1px solid #fe3466;
+   	color:#fff;
+}
+
+ul.about-icon-box li::after {
+ 	background:#fe3466;
+}
+
+/* Section Services
+================================================== */
+.small-title::after {
+ 	background:#fe3466; 
+}
+.services-icon{
+ 	color:#fe3466;
+}
+/* Section My Skill
+================================================== */
+.skills-pink.active .skill-icon{
+ 	border:1px solid #fe3466;
+  	background:#fe3466;
+}
+.skills-pink.active, .btn-skills:focus .btn-skills{
+ 	border-right:2px solid #fe3466;
+}
+.btn-skills:hover, .btn-skills:focus {
+  	border-right:2px solid #fe3466;
+}
+.btn-skills:hover .skill-icon, .btn-skills:focus .skill-icon {
+ 	border:1px solid #fe3466;
+  	background:#fe3466;
+}
+
+/* Section Portfolio
+================================================== */
+.work-item .project-view a:hover { 
+ 	background: #fe3466;  
+  	border: 1px solid #fe3466;
+}
+.work-item .project-title h4 a:hover {
+ 	 color:#fe3466;
+}
+.work-filter ul li a span::before { 
+	background-color: #fe3466;
+}
+.work-item .project-view a {
+ 	border: 1px solid #fe3466;
+  	color:#fe3466;
+}
+.work-item .project-view a:hover {
+ 	background: #fe3466;
+  	border: 1px solid #fe3466;
+}
+.portfolio-pop a{
+ 	color:#fe3466;
+}
+
+/* Section Advertise
+================================================== */
+.overlay-bg{
+ 	background:rgba(254, 52, 102, 0.89);
+}
+.video-title::after {
+    background: #fe3466;
+}
+/* Section Process
+================================================== */
+@media (max-width: 640px) {
+.process-content h4, .process-content-right h4{
+	color:#fe3466;
+}
+}
+/* Section Team
+================================================== */
+.team-member-title{
+	color:#fe3466;  
+}
+.team-social li a:hover{
+ 	color:#fe3466;
+}
+
+/* Section Testimonial
+================================================== */
+.quote-icon{
+ 	color:#fe3466; 
+}
+/* Section Blog
+================================================== */
+.blog-post-content .small-title a:hover{
+  	color:#fe3466; 
+}
+.blog-post-action li a:hover{
+  	color:#fe3466;
+}
+.blog-post-action li a:hover i{
+  	color:#fe3466;
+}
+/* Section Contact
+================================================== */
+.btn.btn-primary:hover{
+    background: #fe3466;
+}
+.social-box-icon a i:hover {
+ 	background: #fe3466;
+  	border: 1px solid #fe3466;
+}
+/* Section Footer
+================================================== */
+label .btn.btn-primary{
+ 	background:#fe3466;
+}
+.footer-twitt a {
+    color: #fe3466;
+}
+.footer-tag a:hover {
+    background: #fe3466;
+    border: 1px solid #fe3466;
+}
+
+/* Blog page
+================================================== */
+.orange-color{
+	background:#fe3466; 
+}
+.breadcrumb li a:hover{
+ 	color: #fe3466;
+}
+.post-pagination a:hover{
+ 	background:#fe3466;
+  	border:1px solid #fe3466;
+}
+.post-pagination span{
+ 	background:#fe3466;
+  	border:1px solid #fe3466;
+}
+
+.search-box button:hover i{
+ 	color: #fe3466;
+}
+.box h4::after {
+ 	background:#fe3466;
+}
+ul.categories-list li a:hover{
+ 	color: #fe3466;
+}
+ul.categories-list li a:hover span{
+ 	background:#fe3466;
+  	border:1px solid #fe3466;
+}
+.resent-posts-title a:hover{
+ 	color: #fe3466;
+}
+.resent-posts p a:hover{
+ 	color: #fe3466;
+}
+ul.archives li a:hover{
+ 	color: #fe3466;
+}
+ul.archives li a:hover:before{
+ 	background:#fe3466;
+  	border:1px solid #fe3466;
+}
+.popular-tag a:hover {
+    background: #fe3466;
+    border: 1px solid #fe3466;
+}
+.fc-border {
+    background: #fe3466;
+}
+
+/* Blog Single page
+================================================== */
+.blog-content .small-title a:hover{
+ 	color: #fe3466;
+}
+.content-single ul li:before {
+ 	color: #fe3466;
+}
+.content-single a{
+ 	color: #fe3466;
+}
+.single-post-share h4{
+ 	color: #fe3466;
+}
+ul.post-tag li a:hover{
+ 	color:#fe3466;
+}
+.comment-main-title:before{
+ 	color:#fe3466;
+}
+.comment-reply-btn a{
+ 	color:#fe3466;
+}
+.comment-content-top h5 a{
+ 	color:#fe3466;
+}
+
+/* 404 page
+================================================== */
+.error-section h2{
+ 	color:#fe3466;
+}
+
+/* Blog 02 Page
+================================================== */
+.post-border{
+ 	background: #fe3466;
+}
+
+/* Theme Default
+================================================== */
+.theme-default h1::after,
+.theme-default h2::after,
+.theme-default h3::after,
+.theme-default h4::after,
+.theme-default h5::after,
+.theme-default h6::after {
+ 	background: #fe3466;
+}
