@@ -47,7 +47,7 @@ jQuery(document).ready(function () {
 				var $lk = curLink.attr('href');
 				if($lk.indexOf("#") > -1 && $lk.length > 1){
 					var refElem = jQuery(curLink.attr('href'));			
-					//Compare the value of current position and the every section position in each scroll
+                    //Compare the value of current position and the every section position in each scroll
 					if (refElem.position().top <= currentScrollPos + 75 && refElem.position().top + refElem.height() + 50 > currentScrollPos) {
 						//Remove class active in all nav
 						jQuery('.navbar-nav > li').removeClass("active");
@@ -370,17 +370,17 @@ jQuery(document).ready(function () {
     }
 
     // RIGHT SIDE CUSTOMIZE SECTION SCRIPT
-    var menuLeft = document.getElementById('cbp-spmenu-s1'), body = document.body;
-    showLeft.onclick = function () {
-        classie.toggle(this, 'active');
-        classie.toggle(menuLeft, 'cbp-spmenu-open');
-        disableOther('showLeft');
-    };
-    function disableOther(button) {
-        if (button !== 'showLeft') {
-            classie.toggle(showLeft, 'disabled');
-        }
-    }
+    // var menuLeft = document.getElementById('cbp-spmenu-s1'), body = document.body;
+    // showLeft.onclick = function () {
+    //     classie.toggle(this, 'active');
+    //     classie.toggle(menuLeft, 'cbp-spmenu-open');
+    //     disableOther('showLeft');
+    // };
+    // function disableOther(button) {
+    //     if (button !== 'showLeft') {
+    //         classie.toggle(showLeft, 'disabled');
+    //     }
+    // }
     // YOUTUBE VIDEO FULLSCREEN SCRIPT
     // Find all YouTube videos
     var $allVideos = jQuery("iframe[src^='https://www.youtube.com']");
