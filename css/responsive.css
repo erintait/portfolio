@@ -297,7 +297,7 @@ Menu
 	border-radius: 0;	
 }
 #header {
-	position:absolute;	
+	position: fixed;
 }
 .top-nav .navbar-default .navbar-collapse {
     border-color: #e7e7e7;
