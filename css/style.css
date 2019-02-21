@@ -1010,6 +1010,7 @@ section#portfolio {
 	background: #fff;
 	z-index: 1;
 	overflow: hidden;
+	margin-bottom: 50px;
 }
 .portfolio-main {
 	width: 100%;
@@ -2148,10 +2149,10 @@ section#contact-me {
 }
 .contact-section {
 	background: #fff;
-	margin-top: -230px;
+	/* margin-top: -230px; */
 	padding: 25px 50px 70px;
-	position: relative;
-	float: left;
+	/* position: relative;
+	float: left; */
 }
 .contact-main-section {
 	float: left;
