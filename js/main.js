@@ -295,6 +295,20 @@ jQuery(document).ready(function () {
 
     }
 
+    //jQuery for modal
+
+    function bookwormsModal(){
+        const bookwormsImages = ['images/bookworms-1.jpg', 'images/bookworms-2.jpg', 'images/bookworms-3.jpg', 'images/bookworms-4.jpg'];
+
+        // $('.portfolio-header').text('Bookworms')
+    }
+
+    const graceHopperImages = [];
+    const balboaGranolaImages = [];
+    const upsideDownImages = [];
+
+
+    
     //BLOG POST SLIDER SCRIPT
     try {
         jQuery('#post-carousel').owlCarousel({
