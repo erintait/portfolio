@@ -1032,6 +1032,9 @@ section#portfolio {
 	width: 100%;
 	overflow: hidden;
 }
+.portfolio-header {
+	color: #292d46;
+}
 .work-filter {
 	margin: 30px 0px 1px 0px;
 	background: url(../images/dot-pattern.jpg) repeat;

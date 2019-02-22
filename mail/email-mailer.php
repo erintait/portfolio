@@ -3,7 +3,7 @@
 if (isset($_POST['email']) && !empty($_POST['email'])) {
 
     // Email address of receipt
-    $to = 'newuser@websitename.com';
+    $to = 'erinmtait@gmail.com';
 
     // Email subject
     $subject = 'New contact request by ' . strip_tags($_POST['name']).'';
@@ -92,7 +92,7 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
 	$headers2 .= "MIME-Version: 1.0\r\n";
 	$headers2 .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
     
-    mail(strip_tags($_POST['email']), 'Thank you for reaching at us.', $body, $headers2);
+    mail(strip_tags($_POST['email']), 'Thank you for reaching out to us.', $body, $headers2);
     
 	$responseArray = array('success' => true, 'message' => '');    
     if (mail($to, $subject, $message, $headers)) {
