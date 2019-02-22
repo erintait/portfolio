@@ -617,7 +617,7 @@ section#services {
 }
 .service-box {
 	float: left;
-	width: 100%;
+	/* width: 100%; */
 	position: relative;
 	z-index: 1;
 	padding-bottom:2px;
@@ -692,6 +692,22 @@ img.blank {
 }
 .service-box .overlay .fc-border {
 	margin: 15px auto;
+}
+.skill-name {
+	color: #fff;
+}
+.skill-img {
+	max-height: 128px;
+}
+.skill-box {
+	width: 128px;
+	height: 190px;
+	margin: 3px;
+}
+.skills-centered {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 /* ==================================================
 5. My Skills And Experience Section
