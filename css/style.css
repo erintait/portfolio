@@ -704,9 +704,10 @@ img.blank {
 	height: 190px;
 	margin: 3px;
 }
-.skill-img-github {
-	/* width: 128px;
-	height: 128px; */
+.skills-centered {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 /* ==================================================
 5. My Skills And Experience Section
