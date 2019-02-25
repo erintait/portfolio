@@ -4259,7 +4259,7 @@ body.dark {
 	background: #1c1c1c;
 }
 .dark .footer-bottom-area {
-	background: #252525;
+	background: rgb(28, 28, 28);
 }
 .dark .copyright-text {
 	color: #c3c3c3;

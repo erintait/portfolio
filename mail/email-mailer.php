@@ -83,7 +83,7 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
 	  
 	  <tr>
 		<td height="50" align="left" valign="middle" bgcolor="#FFFFFF">Kind regards,<br />
-		  <a href="#" target="_blank">websitename.com</a></td>
+		  <a href="#" target="_blank">Erin Tait</a></td>
 		</tr>
 	</table></body></html>';
 
