@@ -702,12 +702,18 @@ img.blank {
 .skill-box {
 	width: 128px;
 	height: 190px;
-	margin: 3px;
+	margin: 5px;
 }
 .skills-centered {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+
+.service-box {
+	text-align: center;
+	padding: 10px 15px;
+	border: 1px solid #272727;
 }
 /* ==================================================
 5. My Skills And Experience Section
@@ -1114,7 +1120,7 @@ section#portfolio {
 	float: left;
 }
 .project-title {
-	width: 80%;
+	width: 95%;
 	float: left;
 }
 .overlay-pro {
@@ -1143,7 +1149,7 @@ section#portfolio {
 	position: relative;
 	float: left;
 	width: 100%;
-	background: #3085a3;
+	/* background: #3085a3; */
 	text-align: left;
 }
 .work-item figure img {
@@ -1160,10 +1166,10 @@ section#portfolio {
 	font-size: 1.25em;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
-	cursor: pointer;
+	/* cursor: pointer; */
 }
 .work-item figure figcaption, .work-item figure figcaption > a {
-	position: absolute;
+	/* position: absolute; */
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -1192,7 +1198,7 @@ section#portfolio {
 figure.effect-zoe figcaption {
 	top: auto;
 	bottom: -1px;
-	padding: 1em;
+	padding: 0;
 	height: auto;
 	background: rgba(255,255,255,0.95);
 	color: #000;
@@ -1236,20 +1242,20 @@ figure.effect-zoe h2 {
 figure.effect-zoe:hover p.description {
 	opacity: 1;
 }
-figure.effect-zoe:hover figcaption, figure.effect-zoe:hover h2, figure.effect-zoe:hover p.icon-links a {
+/* figure.effect-zoe:hover figcaption, figure.effect-zoe:hover h2, figure.effect-zoe:hover p.icon-links a {
 	-webkit-transform: translate3d(0, 0, 0);
 	-moz-transform: translate3d(0, 0, 0);
 	-ms-transform: translate3d(0, 0, 0);
 	-o-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
-}
-figure.effect-zoe:hover h2 {
+} */
+/* figure.effect-zoe:hover h2 {
 	-webkit-transition-delay: 0.05s;
 	-moz-transition-delay: 0.05s;
 	-ms-transition-delay: 0.05s;
 	-o-transition-delay: 0.05s;
 	transition-delay: 0.05s;
-}
+} */
 figure.effect-zoe:hover p.icon-links a:nth-child(3) {
 	-webkit-transition-delay: 0.1s;
 	-moz-transition-delay: 0.1s;
@@ -1293,12 +1299,12 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 	height: auto;
 	text-align: left;
 }
-.work-item .project-title .project-title-h4 a:hover {
+/* .work-item .project-title .project-title-h4 a:hover {
 	text-decoration: none;
 	color: #f49148;
 	background: none;
 	border: none;
-}
+} */
 .work-item .project-title .project-title-h4 {
 	font-size: 18px;
 	font-weight: 700;
@@ -1384,6 +1390,18 @@ button.close {
 }
 #portfolio-carousel {
 	margin-bottom: 60px;
+}
+.project-icons-section {
+	color: #fff;
+	font-size: 20px;
+	float: right;
+}
+.project-icons-section i:hover {
+	text-decoration: none;
+	color: #f49148;
+	background: none;
+	border: none;
+	cursor: pointer;
 }
 /* ==================================================
 7. Work Process Section
