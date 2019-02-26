@@ -1,22 +1,16 @@
 <?php
-
 if (isset($_POST['email']) && !empty($_POST['email'])) {
-
     // Email address of receipt
-    $to = 'erinmtait@gmail.com';
-
+    $to = 'newuser@websitename.com';
     // Email subject
     $subject = 'New contact request by ' . strip_tags($_POST['name']).'';
 	
 	// Email from setting
     $headers = "From: ".strip_tags($_POST['name'])." <".strip_tags($_POST['email'])."> \r\n";
-
     // Email reply
     $headers .= "Reply-To: " . strip_tags($_POST['email']) . "\r\n";
-
     $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-
    /* Admin Email Start */
    
    $message = '<html><body><table width="800" border="0" align="center" cellpadding="0" cellspacing="0" style="font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px;">
@@ -75,24 +69,23 @@ if (isset($_POST['email']) && !empty($_POST['email'])) {
 	  <tr>
 		<td height="200" valign="middle" bgcolor="#FFFFFF">Hello '.strip_tags($_POST['name']).',<br />
 		  <br />
-		  Thank you for your interest in our website. <br />
+		  Thank you for your interest in our website. <br />
 		  <br />
-		   We received your request. We will get back to you as soon as possible. <br />
+		   We received your request. We will get back to you as soon as possible. <br />
 		  <br /></td>
 		</tr>
 	  
 	  <tr>
 		<td height="50" align="left" valign="middle" bgcolor="#FFFFFF">Kind regards,<br />
-		  <a href="#" target="_blank">Erin Tait</a></td>
+		  <a href="#" target="_blank">websitename.com</a></td>
 		</tr>
 	</table></body></html>';
-
 	$headers2 = "From: WebsiteName <info@websitename.com> \r\n";
     $headers2 .= "Reply-To: " . 'noreplay@websitename.com'. "\r\n";
 	$headers2 .= "MIME-Version: 1.0\r\n";
 	$headers2 .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
     
-    mail(strip_tags($_POST['email']), 'Thank you for reaching out to us.', $body, $headers2);
+    mail(strip_tags($_POST['email']), 'Thank you for reaching at us.', $body, $headers2);
     
 	$responseArray = array('success' => true, 'message' => '');    
     if (mail($to, $subject, $message, $headers)) {
