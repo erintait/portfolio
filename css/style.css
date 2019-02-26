@@ -1124,6 +1124,7 @@ section#portfolio {
 	float: left;
 	margin-left: 1%;
 	margin-right: 1%;
+	padding: 5px;
 }
 .overlay-pro {
 	background-color: rgba(0, 0, 0, 0.8);
@@ -1395,7 +1396,7 @@ button.close {
 }
 .project-icons-section {
 	color: #fff;
-	font-size: 24px;
+	font-size: 45px;
 	float: right;
 }
 .project-icons-section i:hover {
