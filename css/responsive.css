@@ -1,3 +1,9 @@
+@media (max-width: 1225px) and (min-width: 993px) {
+	.project-icons-section {
+		font-size: 30px;
+	}
+}
+
 @media (max-width: 1199px) {
 	
 /* ==================================================
@@ -915,7 +921,7 @@ Footer Section
 	padding: 40px 0;
 }
 .contact-section {
-	padding: 10px 30px 25px;
+	padding: 20px 30px 25px;
 }
 .footer-top .module.parallax {
 	height: 200px;
@@ -1429,7 +1435,7 @@ Footer Section
 	margin-bottom: 15px;
 }
 .contact-section {
-	padding: 0 15px;
+	padding: 20px 15px;
 }
 .caption-style {
 	text-align: center;
