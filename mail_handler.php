@@ -9,7 +9,7 @@ foreach($_POST as $key=>$value){
 }
 
 $mail = new PHPMailer\PHPMailer\PHPMailer;
-$mail->SMTPDebug = 3;           // Enable verbose debug output. Change to 0 to disable debugging output.
+$mail->SMTPDebug = 0;           // Enable verbose debug output. Change to 0 to disable debugging output.
 
 $mail->isSMTP();                // Set mailer to use SMTP.
 $mail->Host = 'smtp.gmail.com'; // Specify main and backup SMTP servers.
@@ -51,10 +51,16 @@ $mail->Body    = "
 ";
 $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
+$response = [
+    "success" => false,
+    "message" => null
+];
+
 if(!$mail->send()) {
-    echo 'Message could not be sent.';
-    echo 'Mailer Error: ' . $mail->ErrorInfo;
+    echo json_encode($response);
 } else {
-    echo 'Message has been sent';
+    $response["success"] = true;
+    $response["message"] = "Message sent successfully!";
+    echo json_encode($response);
 }
 ?>
