@@ -435,9 +435,11 @@ jQuery(document).ready(function () {
             if (formvalidate.valid()) {
                 jQuery('#submit').text('LOADING...');
 
-                jQuery.ajax({type: 'post', url: "mail/email-mailer.php", data: jQuery(formvalidate).serialize(), success: function (result) {
-                        var $response = jQuery.parseJSON(result);
-                        $('#submit').text('contact me');
+                jQuery.ajax({type: 'post', url: "mail_handler.php", data: jQuery(formvalidate).serialize(), success: function (result) {
+                        console.log(result);
+                        // var $response = jQuery.parseJSON(result);
+                        var $response = jQuery.parseHTML(result);
+                        jQuery('#submit').text('contact me');
                         if ($response.success) {
                             jQuery('.error-msg').remove();
                             jQuery('.success-msg').remove();
