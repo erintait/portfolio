@@ -437,8 +437,8 @@ jQuery(document).ready(function () {
 
                 jQuery.ajax({type: 'post', url: "mail_handler.php", data: jQuery(formvalidate).serialize(), success: function (result) {
                         console.log(result);
-                        // var $response = jQuery.parseJSON(result);
-                        var $response = jQuery.parseHTML(result);
+                        var $response = jQuery.parseJSON(result);
+                        // var $response = jQuery.parseHTML(result);
                         jQuery('#submit').text('contact me');
                         if ($response.success) {
                             jQuery('.error-msg').remove();
@@ -455,5 +455,6 @@ jQuery(document).ready(function () {
             return false;
         });
     } catch (err) {
+        console.log('error', err);
     }
 });
