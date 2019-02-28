@@ -436,7 +436,6 @@ jQuery(document).ready(function () {
                 jQuery('#submit').text('LOADING...');
 
                 jQuery.ajax({type: 'post', url: "mail_handler.php", data: jQuery(formvalidate).serialize(), success: function (result) {
-                        console.log(result);
                         var $response = jQuery.parseJSON(result);
                         // var $response = jQuery.parseHTML(result);
                         jQuery('#submit').text('contact me');
