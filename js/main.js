@@ -416,28 +416,56 @@ jQuery(document).ready(function () {
                 comment: {required: true}
             }
         });
-        jQuery(formvalidate).submit(function (e) {			
-            e.preventDefault();
-            if (formvalidate.valid()) {
-                jQuery('#submit').text('SENDING...');
 
-                jQuery.ajax({type: 'post', url: "mail_handler.php", data: jQuery(formvalidate).serialize(), success: function (result) {
-                        var $response = jQuery.parseJSON(result);
-                        jQuery('#submit').text('contact me');
-                        if ($response.success) {
-                            jQuery('.error-msg').remove();
-                            jQuery('.success-msg').remove();
-                            jQuery('<p class="success-msg">' + $response.message + '</p>').insertAfter('#submit');
-                            jQuery(formvalidate[0]).find("input[type=text], textarea, input[type=email]").val("");
-                        } else {
-                            jQuery('.error-msg').remove();
-                            jQuery('.success-msg').remove();
-                            jQuery('<p class="error-msg">' + $response.message + '</p>').insertAfter('#submit');
-                        }
-                    }});
-            }
-            return false;
-        });
+        if(navigator.onLine){
+            jQuery(formvalidate).submit(function (e) {			
+                e.preventDefault();
+                if (formvalidate.valid()) {
+                    jQuery('#submit').text('SENDING...');
+    
+                    jQuery.ajax({type: 'post', url: "mail_handler.php", data: jQuery(formvalidate).serialize(), success: function (result) {
+                            var $response = jQuery.parseJSON(result);
+                            jQuery('#submit').text('contact me');
+                            if ($response.success) {
+                                jQuery('.error-msg').remove();
+                                jQuery('.success-msg').remove();
+                                jQuery('<p class="success-msg">' + $response.message + '</p>').insertAfter('#submit');
+                                jQuery(formvalidate[0]).find("input[type=text], textarea, input[type=email]").val("");
+                            } else {
+                                jQuery('.error-msg').remove();
+                                jQuery('.success-msg').remove();
+                                jQuery('<p class="error-msg">' + $response.message + '</p>').insertAfter('#submit');
+                            }
+                        }});
+                }
+                return false;
+            });
+        } else {
+            jQuery('<p class="error-msg">' + 'ERROR: You are offline.' + '</p>').insertAfter('#submit');
+        }
+
+        // jQuery(formvalidate).submit(function (e) {			
+        //     e.preventDefault();
+        //     if (formvalidate.valid()) {
+        //         jQuery('#submit').text('SENDING...');
+
+        //         jQuery.ajax({type: 'post', url: "mail_handler.php", data: jQuery(formvalidate).serialize(), success: function (result) {
+        //                 var $response = jQuery.parseJSON(result);
+        //                 jQuery('#submit').text('contact me');
+        //                 if ($response.success) {
+        //                     jQuery('.error-msg').remove();
+        //                     jQuery('.success-msg').remove();
+        //                     jQuery('<p class="success-msg">' + $response.message + '</p>').insertAfter('#submit');
+        //                     jQuery(formvalidate[0]).find("input[type=text], textarea, input[type=email]").val("");
+        //                 } else {
+        //                     jQuery('.error-msg').remove();
+        //                     jQuery('.success-msg').remove();
+        //                     jQuery('<p class="error-msg">' + $response.message + '</p>').insertAfter('#submit');
+        //                 }
+        //             }, timeout: 5000});
+        //     }
+        //     return false;
+        // });
     } catch (err) {
         console.log('error', err);
     }
