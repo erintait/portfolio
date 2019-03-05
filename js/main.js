@@ -433,7 +433,7 @@ jQuery(document).ready(function () {
         jQuery(formvalidate).submit(function (e) {			
             e.preventDefault();
             if (formvalidate.valid()) {
-                jQuery('#submit').text('LOADING...');
+                jQuery('#submit').text('SENDING...');
 
                 jQuery.ajax({type: 'post', url: "mail_handler.php", data: jQuery(formvalidate).serialize(), success: function (result) {
                         var $response = jQuery.parseJSON(result);
