@@ -154,7 +154,7 @@ jQuery(document).ready(function () {
         return false;
     });
 
-// Navigatio hover effect
+// Navigation hover effect
     try {
         var vid = document.getElementById("video_block");
         vid.onloadeddata = function () {
@@ -295,20 +295,6 @@ jQuery(document).ready(function () {
 
     }
 
-    //jQuery for modal
-
-    function bookwormsModal(){
-        const bookwormsImages = ['images/bookworms-1.jpg', 'images/bookworms-2.jpg', 'images/bookworms-3.jpg', 'images/bookworms-4.jpg'];
-
-        // $('.portfolio-header').text('Bookworms')
-    }
-
-    const graceHopperImages = [];
-    const balboaGranolaImages = [];
-    const upsideDownImages = [];
-
-
-    
     //BLOG POST SLIDER SCRIPT
     try {
         jQuery('#post-carousel').owlCarousel({
@@ -420,7 +406,7 @@ jQuery(document).ready(function () {
     }).resize();
 
     try {
-        // CONTACT TO ME FORM SCRIPT 
+        // CONTACT ME FORM SCRIPT 
         var formvalidate = jQuery("#main-form");
         formvalidate.validate({
             rules: {
@@ -437,7 +423,6 @@ jQuery(document).ready(function () {
 
                 jQuery.ajax({type: 'post', url: "mail_handler.php", data: jQuery(formvalidate).serialize(), success: function (result) {
                         var $response = jQuery.parseJSON(result);
-                        // var $response = jQuery.parseHTML(result);
                         jQuery('#submit').text('contact me');
                         if ($response.success) {
                             jQuery('.error-msg').remove();
