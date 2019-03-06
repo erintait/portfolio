@@ -76,7 +76,7 @@ $mail->Body    = "
     name: {$_POST['name']}<br>
     email: {$_POST['email']}<br>
     subject: {$_POST['subject']}<br>
-    message: {$_POST['comment']}
+    message: {$_POST['message']}
 ";
 $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
