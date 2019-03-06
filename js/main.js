@@ -424,11 +424,11 @@ jQuery(document).ready(function () {
             }
             if (formvalidate.valid()) {
                 if(navigator.onLine){
-                    jQuery('#submit').text('SENDING...');
+                    jQuery('#submit').attr('disabled').text('SENDING...');
 
                     jQuery.ajax({type: 'post', url: "mail_handler.php", data: jQuery(formvalidate).serialize(), success: function (result) {
                             var $response = jQuery.parseJSON(result);
-                            jQuery('#submit').off().text('contact me');
+                            jQuery('#submit').text('contact me');
                             if ($response.success) {
                                 jQuery('.error-msg').remove();
                                 jQuery('.success-msg').remove();
