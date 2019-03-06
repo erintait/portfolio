@@ -47,7 +47,7 @@ jQuery(document).ready(function () {
 				var $lk = curLink.attr('href');
 				if($lk.indexOf("#") > -1 && $lk.length > 1){
 					var refElem = jQuery(curLink.attr('href'));			
-					//Compare the value of current position and the every section position in each scroll
+                    //Compare the value of current position and the every section position in each scroll
 					if (refElem.position().top <= currentScrollPos + 75 && refElem.position().top + refElem.height() + 50 > currentScrollPos) {
 						//Remove class active in all nav
 						jQuery('.navbar-nav > li').removeClass("active");
@@ -154,7 +154,7 @@ jQuery(document).ready(function () {
         return false;
     });
 
-// Navigatio hover effect
+// Navigation hover effect
     try {
         var vid = document.getElementById("video_block");
         vid.onloadeddata = function () {
@@ -370,17 +370,17 @@ jQuery(document).ready(function () {
     }
 
     // RIGHT SIDE CUSTOMIZE SECTION SCRIPT
-    var menuLeft = document.getElementById('cbp-spmenu-s1'), body = document.body;
-    showLeft.onclick = function () {
-        classie.toggle(this, 'active');
-        classie.toggle(menuLeft, 'cbp-spmenu-open');
-        disableOther('showLeft');
-    };
-    function disableOther(button) {
-        if (button !== 'showLeft') {
-            classie.toggle(showLeft, 'disabled');
-        }
-    }
+    // var menuLeft = document.getElementById('cbp-spmenu-s1'), body = document.body;
+    // showLeft.onclick = function () {
+    //     classie.toggle(this, 'active');
+    //     classie.toggle(menuLeft, 'cbp-spmenu-open');
+    //     disableOther('showLeft');
+    // };
+    // function disableOther(button) {
+    //     if (button !== 'showLeft') {
+    //         classie.toggle(showLeft, 'disabled');
+    //     }
+    // }
     // YOUTUBE VIDEO FULLSCREEN SCRIPT
     // Find all YouTube videos
     var $allVideos = jQuery("iframe[src^='https://www.youtube.com']");
@@ -406,38 +406,47 @@ jQuery(document).ready(function () {
     }).resize();
 
     try {
-        // CONTACT TO ME FORM SCRIPT 
+        // CONTACT ME FORM SCRIPT 
+        
         var formvalidate = jQuery("#main-form");
         formvalidate.validate({
             rules: {
                 name: {required: true},
                 email: {required: true, email: true},
                 subject: {required: true},
-                comment: {required: true}
+                message: {required: true}
             }
         });
         jQuery(formvalidate).submit(function (e) {			
             e.preventDefault();
+            for(var i = 0; i < 4; i++){
+                formvalidate[0][i].value = jQuery.trim(formvalidate[0][i].value);
+            }
             if (formvalidate.valid()) {
-                jQuery('#submit').text('LOADING...');
-
-                jQuery.ajax({type: 'post', url: "mail/email-mailer.php", data: jQuery(formvalidate).serialize(), success: function (result) {
-                        var $response = jQuery.parseJSON(result);
-                        $('#submit').text('contact me');
-                        if ($response.success) {
-                            jQuery('.error-msg').remove();
-                            jQuery('.success-msg').remove();
-                            jQuery('<p class="success-msg">' + $response.message + '</p>').insertAfter('#submit');
-                            jQuery(formvalidate[0]).find("input[type=text], textarea, input[type=email]").val("");
-                        } else {
-                            jQuery('.error-msg').remove();
-                            jQuery('.success-msg').remove();
-                            jQuery('<p class="error-msg">' + $response.message + '</p>').insertAfter('#submit');
-                        }
-                    }});
+                if(navigator.onLine){
+                    jQuery('#submit').text('SENDING...').prop("disabled", true);
+                    jQuery.ajax({type: 'post', url: "mail_handler.php", data: jQuery(formvalidate).serialize(), success: function (result) {
+                            var $response = jQuery.parseJSON(result);
+                            jQuery('#submit').text('contact me');
+                            if ($response.success) {
+                                jQuery('.error-msg').remove();
+                                jQuery('.success-msg').remove();
+                                jQuery('<p class="success-msg">' + $response.message + '</p>').insertAfter('#submit');
+                                jQuery('#submit').prop("disabled", false);
+                                jQuery(formvalidate[0]).find("input[type=text], textarea, input[type=email]").val("");
+                            } else {
+                                jQuery('.error-msg').remove();
+                                jQuery('.success-msg').remove();
+                                jQuery('<p class="error-msg">' + $response.message + '</p>').insertAfter('#submit');
+                            }
+                        }, timeout: 3000});
+                } else {
+                    jQuery('<p class="error-msg">' + 'Error submitting form: You are offline.' + '</p>').insertAfter('#submit');
+                }
             }
             return false;
         });
     } catch (err) {
+        console.log('error', err);
     }
 });
