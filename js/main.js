@@ -414,7 +414,7 @@ jQuery(document).ready(function () {
                 name: {required: true},
                 email: {required: true, email: true},
                 subject: {required: true},
-                comment: {required: true}
+                message: {required: true}
             }
         });
         jQuery(formvalidate).submit(function (e) {			
