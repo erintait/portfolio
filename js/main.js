@@ -419,8 +419,11 @@ jQuery(document).ready(function () {
         });
         jQuery(formvalidate).submit(function (e) {			
             e.preventDefault();
+            for(var i = 0; i < 4; i++){
+                formvalidate[0][i].value = jQuery.trim(formvalidate[0][i].value);
+            }
             //put the trim function before .valid. Trim whitespace then check for validity
-            if (formvalidate.trim().valid()) {
+            if (formvalidate.valid()) {
                 if(navigator.onLine){
                     jQuery('#submit').text('SENDING...');
 
