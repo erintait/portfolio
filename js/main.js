@@ -407,6 +407,7 @@ jQuery(document).ready(function () {
 
     try {
         // CONTACT ME FORM SCRIPT 
+        
         var formvalidate = jQuery("#main-form");
         formvalidate.validate({
             rules: {
@@ -416,13 +417,13 @@ jQuery(document).ready(function () {
                 comment: {required: true}
             }
         });
-
-        if(navigator.onLine){
-            jQuery(formvalidate).submit(function (e) {			
-                e.preventDefault();
-                if (formvalidate.valid()) {
+        jQuery(formvalidate).submit(function (e) {			
+            e.preventDefault();
+            //put the trim function before .valid. Trim whitespace then check for validity
+            if (formvalidate.valid()) {
+                if(navigator.onLine){
                     jQuery('#submit').text('SENDING...');
-    
+
                     jQuery.ajax({type: 'post', url: "mail_handler.php", data: jQuery(formvalidate).serialize(), success: function (result) {
                             var $response = jQuery.parseJSON(result);
                             jQuery('#submit').text('contact me');
@@ -437,12 +438,14 @@ jQuery(document).ready(function () {
                                 jQuery('<p class="error-msg">' + $response.message + '</p>').insertAfter('#submit');
                             }
                         }});
+                } else {
+                    jQuery('<p class="error-msg">' + 'Error submitting form: You are offline.' + '</p>').insertAfter('#submit');
                 }
-                return false;
-            });
-        } else {
-            jQuery('<p class="error-msg">' + 'ERROR: You are offline.' + '</p>').insertAfter('#submit');
-        }
+            }
+            return false;
+        });
+        
+            
 
         // jQuery(formvalidate).submit(function (e) {			
         //     e.preventDefault();
