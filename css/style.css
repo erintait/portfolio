@@ -3940,7 +3940,8 @@ label .btn.btn-primary:hover {
 	color: #fff;
     font-size: 70px;
     font-weight: 700;
-    line-height: 80px;
+	line-height: 80px;
+	text-shadow: 3px 3px 5px #000;
     text-transform: uppercase;
 	font-family: 'Raleway', sans-serif;
 	margin-top: 10px;

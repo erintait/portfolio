@@ -439,7 +439,7 @@ jQuery(document).ready(function () {
                                 jQuery('.success-msg').remove();
                                 jQuery('<p class="error-msg">' + $response.message + '</p>').insertAfter('#submit');
                             }
-                        }});
+                        }, timeout: 3000});
                 } else {
                     jQuery('<p class="error-msg">' + 'Error submitting form: You are offline.' + '</p>').insertAfter('#submit');
                 }
