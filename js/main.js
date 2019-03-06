@@ -424,8 +424,7 @@ jQuery(document).ready(function () {
             }
             if (formvalidate.valid()) {
                 if(navigator.onLine){
-                    jQuery('#submit').attr('disabled').text('SENDING...');
-
+                    jQuery('#submit').text('SENDING...').prop("disabled", true);
                     jQuery.ajax({type: 'post', url: "mail_handler.php", data: jQuery(formvalidate).serialize(), success: function (result) {
                             var $response = jQuery.parseJSON(result);
                             jQuery('#submit').text('contact me');
@@ -433,6 +432,7 @@ jQuery(document).ready(function () {
                                 jQuery('.error-msg').remove();
                                 jQuery('.success-msg').remove();
                                 jQuery('<p class="success-msg">' + $response.message + '</p>').insertAfter('#submit');
+                                jQuery('#submit').prop("disabled", false);
                                 jQuery(formvalidate[0]).find("input[type=text], textarea, input[type=email]").val("");
                             } else {
                                 jQuery('.error-msg').remove();
