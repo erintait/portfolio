@@ -429,7 +429,7 @@ jQuery(document).ready(function () {
                     jQuery.ajax({type: 'post', url: "mail_handler.php", data: jQuery(formvalidate).serialize(), success: function (result) {
                             var $response = jQuery.parseJSON(result);
                             jQuery('#submit').text('contact me');
-                            jQuery('#submit').off();
+                            jQuery('#submit').off('submit');
                             if ($response.success) {
                                 jQuery('.error-msg').remove();
                                 jQuery('.success-msg').remove();
