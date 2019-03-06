@@ -4,9 +4,38 @@ require_once('phpmailer/PHPMailer/src/Exception.php');
 require_once('phpmailer/PHPMailer/src/PHPMailer.php');
 require_once('phpmailer/PHPMailer/src/SMTP.php');
 
-foreach($_POST as $key=>$value){
-    $_POST[$key] = htmlentities( addslashes( $value));
+
+
+//  Validate POST inputs
+$message = [];
+$output = [
+    'success' => null,
+    'messages' => []
+];
+
+//  Sanitize name field
+$message['name'] = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
+    if (empty($message['name'])) {
+        $output['success'] = false;
+        $output['messages'][] = 'missing name key';
 }
+//  Validate email field
+$message['email'] = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
+    if (empty($message['email'])) {
+        $output['success'] = false;
+        $output['messages'][] = 'invalid email key';
+    }
+    //  Sanitize message field
+    $message['message'] = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
+    if (empty($message['message'])) {
+        $output['success'] = false;
+        $output['messages'][] = 'missing message key';
+    }
+    if ($output['success'] !== null) {
+        http_response_code(422);
+        echo json_encode($output);
+        exit();
+    }
 
 $mail = new PHPMailer\PHPMailer\PHPMailer;
 $mail->SMTPDebug = 0;           // Enable verbose debug output. Change to 0 to disable debugging output.
